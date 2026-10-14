@@ -36,19 +36,12 @@ function safeWebUrl(value) {
 document.querySelectorAll('[data-project]').forEach(button => {
   button.addEventListener('click', () => {
     const project = content.projects[button.dataset.project];
-    const fields = { title: 'name', category: 'category', intro: 'intro', question: 'question', approach: 'approach', focus: 'focus', stage: 'stage' };
+    const fields = { title: 'name', category: 'category', intro: 'intro', question: 'question', approach: 'approach', focus: 'focus' };
     Object.entries(fields).forEach(([id, key]) => { document.querySelector(`#dialog-${id}`).textContent = project[key]; });
     const stack = document.querySelector('#dialog-stack');
     stack.replaceChildren(...project.stack.map(label => {
       const tag = document.createElement('span'); tag.textContent = label; return tag;
     }));
-    const facts = document.querySelector('#dialog-facts');
-    facts.replaceChildren();
-    for (const [label, value, fallback] of [['My role', project.role, '[Add exact role & contributions]'], ['Timeline', project.dates, '[Add project dates]'], ['Outcomes', project.outcome, '[Add verified results]']]) {
-      const term = document.createElement('dt'); term.textContent = label;
-      const detail = document.createElement('dd'); detail.textContent = value || fallback;
-      facts.append(term, detail);
-    }
     const links = document.querySelector('#dialog-links');
     links.replaceChildren();
     for (const [label, value] of [['Repository', project.repository], ['Live demo', project.demo]]) {
