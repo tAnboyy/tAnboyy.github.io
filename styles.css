@@ -33,7 +33,7 @@
 
 @media(max-width:680px){.campus-map{max-width:360px;left:50%;right:auto;top:167px;transform:translateX(-50%) rotate(-4deg)}.campus-visual:hover .campus-map{transform:translateX(-50%) rotate(-2deg)}}
 
-/* Reflections: an illustrative conversation, separate from the ClubALL platform. */
+/* Reflections: an illustrative conversation, separate from the CourseLab platform. */
 .reflections-card{grid-column:1 / -1}
 .reflections-visual{height:375px;background:#efddd8}
 .reflections-heading{position:absolute;left:42px;top:32px;display:flex;flex-direction:column}
