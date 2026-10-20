@@ -45,9 +45,10 @@ document.querySelectorAll('[data-project]').forEach(button => {
     const links = document.querySelector('#dialog-links');
     links.replaceChildren();
     for (const [label, value] of [['Repository', project.repository], ['Live demo', project.demo]]) {
-      const url = safeWebUrl(value);
+      const comingSoon = label === 'Live demo' && value == null;
+      const url = comingSoon ? null : safeWebUrl(value);
       const link = document.createElement(url ? 'a' : 'span');
-      link.textContent = url ? `${label} ↗` : `${label} [add link]`;
+      link.textContent = comingSoon ? 'Coming soon...' : url ? `${label} ↗` : `${label} [add link]`;
       if (url) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; }
       links.append(link);
     }
