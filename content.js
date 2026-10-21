@@ -15,7 +15,7 @@ window.portfolio = {
       approach: 'A React Native customer app with menu browsing, weekly meal plans, a shared cart, order history, and separate native and web checkout implementations. The wider project includes a Spring Boot API, a restaurant admin app, and a marketing site.',
       focus: 'Connecting the customer journey across platforms. Redux manages the cart, Firebase handles customer sign-in, and the backend connects order and menu data in Firestore with Stripe payment integration. Catering browsing is also represented, with sample menu data in the inspected screen.',
       stack: ['React Native / Expo', 'TypeScript', 'Redux Toolkit', 'Java / Spring Boot', 'Firebase / Firestore', 'Stripe'],
-      repository: 'https://github.com/tAnboyy/cinnamon_customer-app', demo: null
+      repository: 'https://github.com/tAnboyy/cinnamon_customer-app', demo: 'https://cinnamon-landing-page.onrender.com/#menu'
     },
     hourtracker: {
       name: 'Hour Tracker', category: 'Personal productivity',
