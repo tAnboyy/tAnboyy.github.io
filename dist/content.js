@@ -42,7 +42,7 @@ window.portfolio = {
       approach: 'A mobile campus-discovery app with map markers, searchable places, category filters, and a teacher directory. University-specific configuration brings campus boundaries, map settings, branding, and available features into one multi-tenant system, with a Spring Boot API and a separate React admin interface.',
       focus: 'Making campus information easier to find, while accounting for unreliable connectivity. The app tries the API first, then cached data, with bundled NMAMIT data as a final fallback for that campus.',
       stack: ['React Native / Expo', 'TypeScript', 'React Native Maps', 'React / Vite', 'Java / Spring Boot', 'PostgreSQL'],
-      repository: 'https://github.com/tAnboyy/NMAMIT-Guide', demo: null
+      repository: 'https://github.com/tAnboyy/NMAMIT-Guide', demo: 'https://campusnav-landing.vercel.app/'
     },
     urec: {
       name: 'UREC Live', category: 'Gym technology',
@@ -60,7 +60,7 @@ window.portfolio = {
       approach: 'A staged workout-coach prototype with equipment-aware exercise flow, set tracking, and rest states. The interaction separates keeping the original plan from explicitly accepting an equipment alternative.',
       focus: 'A complete workout journey, shared session state, and short coaching interactions. Voice and watch experiences are areas of development rather than claims of a fully released product.',
       stack: ['React Native / Expo', 'FastAPI', 'SQLite', 'Voice integration'],
-      repository: 'https://github.com/tAnboyy/spotter', demo: null
+      repository: 'https://github.com/tAnboyy/spotter', demo: 'https://spotter-sandy-beta.vercel.app/'
     },
     cluball: {
       name: 'CourseLab', category: 'AI & interaction',
