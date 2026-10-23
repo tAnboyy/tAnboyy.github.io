@@ -109,3 +109,13 @@
 .ticket-footer{font-size:8px;display:block;border-top:1px dashed #b98b50;margin-top:14px;padding-top:10px}
 @media(max-width:1100px) and (min-width:681px){.cinnamon-heading{left:28px}.cinnamon-heading>strong{font-size:34px}.cinnamon-subline{font-size:10px;max-width:180px}.cinnamon-menu{right:9%;width:255px}.cinnamon-ticket{width:157px;right:3%;bottom:44px;padding:17px 13px}.cinnamon-ticket>strong{font-size:18px}.ticket-days{gap:5px}.ticket-days i{width:20px;height:20px}}
 @media(max-width:680px){.cinnamon-visual{height:595px}.cinnamon-heading{left:25px;right:25px;top:22px}.cinnamon-wordmark{font-size:23px}.cinnamon-heading>strong{font-size:clamp(24px,5vw,30px);letter-spacing:-1px;margin-top:11px}.cinnamon-heading>strong br:last-of-type{display:none}.cinnamon-subline{display:none}.cinnamon-menu{top:175px;left:50%;right:auto;width:250px;max-width:78%;transform:translateX(-55%) rotate(-5deg);padding:17px}.cinnamon-visual:hover .cinnamon-menu{transform:translateX(-55%) rotate(-2deg)}.cinnamon-ticket{width:142px;right:5%;bottom:49px;padding:15px 12px}.cinnamon-ticket>strong{font-size:17px}.ticket-days{gap:5px;margin-top:12px}.ticket-days i{width:19px;height:19px;font-size:8px}.ticket-footer{margin-top:10px}.cinnamon-card .project-meta>span{font-size:10px;max-width:130px;text-align:right}.cinnamon-visual .visual-caption{font-size:8px}}
+
+/* Readability pass: increase the site-facing type without enlarging decorative mockup UI. */
+body{font-size:18px}
+.identity{font-size:17px}.identity-sub{font-size:13px}.header nav,.contact-nav{font-size:16px}
+.hello,.hero-description{font-size:18px}.button{font-size:16px}.hero-footnote{font-size:13px}
+.interests>p{font-size:14px}.interests>div{font-size:16px}.section-intro,.filters button{font-size:14px}
+.project-meta>span{font-size:13px}.project-card>p{font-size:16px}.approach-copy>p:not(.section-intro),.about-copy>p:not(.section-intro){font-size:17px}.demo-disclaimer{font-size:12px}
+.principles p{font-size:15px}.contact-section p{font-size:15px}.email-link{font-size:25px}.footer{font-size:13px}
+.dialog-body p{font-size:16px}.dialog-body .dialog-intro{font-size:21px}.stack>span,.project-status p,.project-facts,.dialog-links{font-size:13px}
+@media(max-width:680px){.identity{font-size:14px}.contact-nav{font-size:13px}.hello,.hero-description{font-size:16px}.hero .button{font-size:14px}.interests>p{font-size:13px}.interests>div{font-size:12px}.section-intro,.filters button{font-size:12px}.project-card>p{font-size:14px}.approach-copy>p:not(.section-intro),.about-copy>p:not(.section-intro){font-size:16px}.principles p{font-size:14px}.contact-section p{font-size:13px}.footer{font-size:12px}.dialog-body p{font-size:15px}}
