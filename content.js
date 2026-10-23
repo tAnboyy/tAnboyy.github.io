@@ -51,7 +51,7 @@ window.portfolio = {
       approach: 'A connected gym experience bringing together a member app, backend services, and an admin interface. The work explores how equipment information and scheduling can support the next decision in a workout.',
       focus: 'Connecting the member experience to the system behind it, and exploring the practical questions around bringing gym technology into use.',
       stack: ['React Native / Expo', 'Java / Spring Boot', 'PostgreSQL'],
-      repository: 'https://github.com/orgs/urec-live/repositories', demo: null
+      repository: 'https://github.com/orgs/urec-live/repositories', demo: 'https://urec-live-app.onrender.com/workout'
     },
     spotter: {
       name: 'Spotter', category: 'AI & interaction',
